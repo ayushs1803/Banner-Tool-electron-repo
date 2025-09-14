@@ -2,6 +2,7 @@
   "name": "banner-tool",
   "version": "1.0.0",
   "description": "Resize & composite artwork to AT&T 286x410 banners",
+  "author": "AyushS",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -16,11 +17,11 @@
     }
   },
   "dependencies": {
-    "electron": "^26.0.0",
     "sharp": "^0.32.0",
     "formidable": "^2.1.2"
   },
   "devDependencies": {
+    "electron": "^26.0.0",
     "electron-builder": "^24.0.0"
   }
 }
