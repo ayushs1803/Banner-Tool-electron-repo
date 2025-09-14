@@ -1,0 +1,26 @@
+{
+  "name": "banner-tool",
+  "version": "1.0.0",
+  "description": "Resize & composite artwork to AT&T 286x410 banners",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --windows portable"
+  },
+  "build": {
+    "appId": "com.yourcompany.bannertool",
+    "productName": "BannerTool",
+    "publish": null,
+    "win": {
+      "target": ["portable"]
+    }
+  },
+  "dependencies": {
+    "electron": "^26.0.0",
+    "sharp": "^0.32.0",
+    "formidable": "^2.1.2"
+  },
+  "devDependencies": {
+    "electron-builder": "^24.0.0"
+  }
+}
